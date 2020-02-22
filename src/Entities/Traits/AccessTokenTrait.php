@@ -56,7 +56,7 @@ trait AccessTokenTrait
     /**
      * Generate a string representation from the access token
      */
-    public function __toString()
+    public function __toString(): string
     {
         return (string) $this->convertToJWT($this->privateKey);
     }

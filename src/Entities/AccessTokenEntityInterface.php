@@ -21,5 +21,5 @@ interface AccessTokenEntityInterface extends TokenInterface
     /**
      * Generate a string representation of the access token.
      */
-    public function __toString();
+    public function __toString(): string;
 }
